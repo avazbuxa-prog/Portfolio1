@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaxsiy Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome Ikonkalari -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigatsiya -->
+    <header class="navbar">
+        <div class="logo"><i class="fa-solid fa-code"></i> Developer<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about" class="active">Men haqimda</a></li>
+                <li><a href="#skills">Ko'nikmalar</a></li>
+                <li><a href="#projects">Loyihalar</a></li>
+                <li><a href="#contact" class="btn-contact">Bog'lanish</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero / Asosiy Qism -->
+    <section id="about" class="hero">
+        <div class="hero-container">
+            <div class="hero-text">
+                <span class="badge">Salom, men Web Dasturchiman 👋</span>
+                <h1>G'oyalaringizni <span>Zamonaviy Kodlar</span> Bilan Amalga Oshiraman</h1>
+                <p>Men sifatli, tezkor va interaktiv veb-saytlar hamda ilovalarni yaratishga ixtisoslashgan Frontend dasturchiman.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">Loyihalarni ko'rish <i class="fa-solid fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Bog'lanish</a>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="avatar-box">
+                    <div class="avatar-gradient"></div>
+                    <i class="fa-solid fa-laptop-code avatar-icon"></i>
+                </div>
+                <div class="experience-badge">
+                    <h3>2+ Yil</h3>
+                    <p>Tazriba va Amaliyot</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ko'nikmalar / Skills -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2>Mening <span>Ko'nikmalarim</span></h2>
+            <p>Loyiha yaratishda foydalanadigan texnologiyalarim</p>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fa-brands fa-html5 skill-icon html"></i>
+                <h3>HTML5</h3>
+                <p>Semantik va to'g'ri tuzilgan sayt strukturasi.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-css3-alt skill-icon css"></i>
+                <h3>CSS3 / SCSS</h3>
+                <p>Flexbox, Grid va zamonaviy responsive dizayn.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-js skill-icon js"></i>
+                <h3>JavaScript</h3>
+                <p>Interaktiv va dinamik funksionalliklar.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-react skill-icon react"></i>
+                <h3>React.js</h3>
+                <p>Zamonaviy va tezkor Single Page ilovalar.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-brands fa-git-alt skill-icon git"></i>
+                <h3>Git & GitHub</h3>
+                <p>Kodni boshqarish va guruhda ishlash.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fa-solid fa-mobile-screen-button skill-icon responsive"></i>
+                <h3>Responsive Design</h3>
+                <p>Barcha qurilmalarga moslashuvchan interfeys.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loyihalar / Projects -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2>Mening <span>Loyihalarim</span></h2>
+            <p>Men tomonidan yaratilgan so'nggi ishlarim</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="project-placeholder">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="tag">Online Do'kon</span>
+                    <h3>E-Commerce Web Sayt</h3>
+                    <p>Zamonaviy internet magazin interfeysi, savat funksiyasi va qidiruv tizimi bilan.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demoni ko'rish</a>
+                        <a href="#" class="btn-sm outline"><i class="fa-brands fa-github"></i> Kod</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="project-placeholder purple">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="tag">Dashboard</span>
+                    <h3>Boshqaruv Paneli</h3>
+                    <p>Biznes analitikasi va statistikalarini kuzatish uchun maxsus dashboard.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demoni ko'rish</a>
+                        <a href="#" class="btn-sm outline"><i class="fa-brands fa-github"></i> Kod</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <div class="project-placeholder green">
+                        <i class="fa-solid fa-cloud-sun"></i>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="tag">Web App</span>
+                    <h3>Ob-havo Ilovasi</h3>
+                    <p>API yordamida real vaqt rejimida dunyo shaharlari ob-havosini ko'rsatuvchi dastur.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Demoni ko'rish</a>
+                        <a href="#" class="btn-sm outline"><i class="fa-brands fa-github"></i> Kod</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bog'lanish / Contact -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2>Men Bilan <span>Bog'laning</span></h2>
+            <p>Loyiha va hamkorlik uchun xabar qoldiring</p>
+        </div>
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Ismingiz</label>
+                    <input type="text" id="name" placeholder="Ismingizni kiriting" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="email@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Xabar</label>
+                    <textarea id="message" rows="5" placeholder="Loyiha haqida yozing..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-full">Xabarni Yuborish <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Developer Portfolio. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
